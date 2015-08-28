@@ -1,6 +1,6 @@
 <?php
 
-namespace app\modules\dashboard;
+namespace esoftslimited\dashboard;
 
 use yii\authclient\Collection;
 use yii\base\BootstrapInterface;
@@ -18,16 +18,18 @@ use yii\web\User;
  */
 class Bootstrap implements BootstrapInterface
 {
+    /** @var inheritdoc */
+    
     /** @var array Model's map */
     private $layout;
     private $sections=[];
-
+    
     /** @inheritdoc */
     public function bootstrap($app)
     {
         if ($app instanceof \yii\web\Application){
           exit('Module Started');
         }
-  
+       
     }
 }

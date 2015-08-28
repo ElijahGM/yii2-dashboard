@@ -1,11 +1,11 @@
 <?php
 
-namespace app\modules\dashboard;
+namespace esoftslimited\dashboard;
 
 class Module extends \yii\base\Module
 {
-    public $controllerNamespace = 'app\modules\dashboard\controllers';
-
+    public $controllerNamespace = 'esoftslimited\dashboard\controllers';
+    public $defaultRoute="dashboard";
     public function init()
     {
         parent::init();

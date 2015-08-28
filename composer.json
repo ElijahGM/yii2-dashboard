@@ -17,5 +17,12 @@
         "psr-4": {
             "esoftslimited\\dashboard\\": ""
         }
+    },
+    "extra": {
+        "bootstrap": "esoftslimited\\dashboard\\Bootstrap",        
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
     }
 }
