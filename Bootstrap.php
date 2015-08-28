@@ -28,6 +28,6 @@ class Bootstrap implements BootstrapInterface
         if ($app instanceof \yii\web\Application){
           exit('Module Started');
         }
-        ss
+  
     }
 }
