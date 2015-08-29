@@ -1,4 +1,4 @@
-# Getting started with Yii2-dashboard
+Getting started with Yii2-dashboard
 =========
 Yii2 Dashboard is a module that allows you to create and manage admin dashboards using custom layouts and panels.
 
@@ -85,5 +85,8 @@ The module is still on dev we are hoping to achieve a dynamic easy to use plugin
 2. Allow using [yii\widgets\Block](http://www.yiiframework.com/doc-2.0/yii-widgets-block.html) on layouts
 3. Utilize cache for enhacing performace
 4. Add hooks for allowing draggable and saving user settings to the database
-5. Relax and develop
+5. Add many useful functions on dashboard component;
+6. Design default module for diplaying dashboard that is flexible and extensible
+7. Organize this ToDo in order of priority
+8. Relax and develop
 
