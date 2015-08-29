@@ -8,7 +8,7 @@ Installation
 ------------
 Yii2-dashboard is designed to work out of the box. It means that installation requires
 minimal steps. Only one configuration step should be taken and you are ready to
-have user dynamic on your Yii2 website.
+have a dynamic dashboard on your Yii2 website.
 
 ### 1. Download
 The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
@@ -31,10 +31,9 @@ to the require section of your `composer.json` file.
 Usage
 -----
 ### 2. Configure
-To Install the add the following to your module:
 
 Add following lines to your main configuration file:
-> **NOTE:** Make sure that you don't have `dashboard` component or module configuration in your config files. otherwise this step will override it
+> **NOTE:** Make sure that you don't have `dashboard` component or `module` configuration in your config files. otherwise this step will override it
 
 ```php
 'modules' => [
@@ -56,6 +55,7 @@ $view; /** content of the panel **/
 $section; /** section where the panel will be displayed**/
 ```
 > **NOTE:** You can add as many panel as you wish
+
 ## Playing around with layouts?
 The dashboard component allows custom layouts using the following function
 ```php
