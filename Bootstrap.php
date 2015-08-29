@@ -10,6 +10,11 @@ use yii\web\GroupUrlRule;
 use yii\console\Application as ConsoleApplication;
 use yii\web\User;
 
+class XCV{
+    public function e(){
+        echo "Hello Mkubwa";
+    }
+}
 /**
  * Bootstrap class registers module and user application component. It also creates some url rules which will be applied
  * when UrlManager.enablePrettyUrl is enabled.
@@ -28,7 +33,9 @@ class Bootstrap implements BootstrapInterface
     public function bootstrap($app)
     {
         if ($app instanceof \yii\web\Application){
-          exit('Module Started');
+           $app->setComponents(['dashboard'=>['class'=>'esoftslimited\dashboard\components\Dashboard']]);
+
+          
         }
        
     }
