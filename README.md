@@ -6,7 +6,7 @@ Yii2 Dashboard is a module that allows you to create and manage admin dashboards
 
 Installation
 ------------
-Yii2-dashboard is designed to work out of the box. It means that installation requires
+Yii2-dashboard is designed to work out of the box, meaning that installation requires
 minimal steps. Only one configuration step should be taken and you are ready to
 have a dynamic dashboard on your Yii2 website.
 
